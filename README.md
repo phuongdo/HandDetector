@@ -73,4 +73,19 @@ Execution:
     // you must have JavaCV and OpenCV installed
 
 ----------------------------
+
+Troubleshoot
+
+Java is trying to find required dlls in ${java.library.path} but it is not defined. So you should:
+
+Set location of opencv_java244.dll in %PATH% ("c:\opencv\build\java\x64\" for example).
+Create in your project dir "lib" dir.
+Put there:
+javacpp.jar
+javacv.jar
+javacv-windows-x86_64.jar
+opencv-2.4.4-windows-x86_64.jar
+opencv-244.jar
+If your platform's bitness is 32 then use *x86.jar versions.
+
 Last updated: 7th July 2013

@@ -1,6 +1,6 @@
 @echo off
 echo Compiling %* with JavaCV and OpenCV...
 
-javac -cp "d:\javacv-bin\javacv.jar;d:\javacv-bin\javacpp.jar;d:\javacv-bin\javacv-windows-x86.jar;." %*
+javac -cp "C:\javacv-bin\javacv.jar;C:\javacv-bin\javacpp.jar;C:\javacv-bin\javacv-windows-x86_64.jar;." %*
 
 echo Finished.
